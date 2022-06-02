@@ -2,7 +2,7 @@ import { ApolloClient, InMemoryCache, HttpLink } from "@apollo/client";
 import { setContext } from "@apollo/client/link/context";
 
 const link = new HttpLink({
-  uri: "http://localhost:5000",
+  uri: "https://boiling-stream-97721.herokuapp.com/",
   // Additional options
 });
 
